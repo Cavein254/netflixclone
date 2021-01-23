@@ -12,7 +12,7 @@ export const Container = styled.div`
   }
 `;
 
-export const column = styled.div`
+export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -45,3 +45,5 @@ export const Break = styled.p`
   flex-basis: 100%;
   height: 0;
 `;
+
+export const Text = styled.p``;
