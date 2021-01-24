@@ -1,11 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import * as ROUTES from "./constatnts/routes";
-import { Home, Browse, Signin, Signup } from "./pages";
+import { Home, Browse, SignIn, SignUp } from "./pages";
 
 export default function App() {
   return (
     <Router>
+      <Route exact path="/signup">
+        <SignUp />
+      </Route>
+      <Route exact path="/signin">
+        <SignIn />
+      </Route>
+      <Route exact path="/browse">
+        <Browse />
+      </Route>
       <Route exact path={ROUTES.HOME}>
         <Home />
       </Route>
