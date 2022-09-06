@@ -3,13 +3,15 @@
 
 This site is a demonstration of the powers of react. This project utilized
 
-NextJs for both clientside and serverside rendering. Google Firebase is uded
+NextJs for both clientside and serverside rendering. Google Firebase is used
 
 for authentication and storage of user's credentials. As for stylying, the 
 
 project utilizes styled-components that enable a responsive design layout
 
-suitable for both mobile and desktop views as shown in the below images
+suitable for both mobile and desktop views as shown in the below images. 
+
+The site is hosted on vercel
 
 ## Landing Page
 ![Landing Page](./src/imgs/full1.png?raw=true "Landing Page")
